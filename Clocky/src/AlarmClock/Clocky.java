@@ -59,21 +59,7 @@ public class Clocky extends javax.swing.JFrame {
         }
         
     }
-    public void DoEvent(){
-         try{
-             String host = "jdbc:derby://localhost:1527/PersonInfo";
-        String uName = "Ayushi";
-        String uPass = "123";
-         con = DriverManager.getConnection(host, uName, uPass);
-         stmt = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,ResultSet.CONCUR_UPDATABLE);
-        String sql = "SELECT* FROM EVENT_INFO";
-        rs = stmt.executeQuery(sql);
-        }
-        catch(SQLException err){
-          JOptionPane.showMessageDialog(Clocky.this,err.getMessage());  
-        }
-    }
-
+   
    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents

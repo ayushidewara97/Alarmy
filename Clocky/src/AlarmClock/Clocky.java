@@ -334,7 +334,7 @@ public class Clocky extends javax.swing.JFrame {
 
         labFont.setFont(new java.awt.Font("DS-Digital", 1, 48)); // NOI18N
         labFont.setForeground(new java.awt.Color(255, 153, 153));
-        labFont.setText("jLabel1");
+        labFont.setText(null);
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jButton1.setText("Set Alarm");
